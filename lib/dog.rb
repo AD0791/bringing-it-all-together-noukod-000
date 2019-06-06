@@ -60,6 +60,8 @@ class Dog
     dog
   end
   
+  # database to ruby
+  # our class can access the records and return the row as an instance (objects) (database map object)
   def self.find_by_id(id)
     sql = "SELECT * FROM dogs WHERE id = ?"
     result = DB[:conn].execute(sql, id)[0]
