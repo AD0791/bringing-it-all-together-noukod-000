@@ -82,7 +82,10 @@ class Dog
     dog
   end 
   
-  
+  # database to ruby (handler)
+  def self.new_from_db(row)
+    Dog.new(id: row[o], name: row[1] name, breed: row[3])
+  end
   
   
   
