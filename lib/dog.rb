@@ -35,6 +35,9 @@ class Dog
       DB[:conn].execute(sql)
   end
   
+  # ruby to database
+  # we can record an instance (instance map to column tables)
+  
   
   
   
