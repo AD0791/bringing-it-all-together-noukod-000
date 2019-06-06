@@ -19,7 +19,7 @@ class Dog
       )
       SQL
       
-      
+      DB[]
   end
   
   
