@@ -15,7 +15,7 @@ class Dog
   # our class can create dogs table (obj map tables)
   def self.create_table
     sql = <<-SQL 
-      CREATE TABLE IF NOT EXITS dogs(
+      CREATE TABLE IF NOT EXISTS dogs(
       id INTEGER PRIMARY KEY,
       name TEXT,
       breed TEXT
