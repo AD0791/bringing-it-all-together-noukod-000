@@ -36,7 +36,8 @@ class Dog
   end
   
   # ruby to database
-  # we can record an instance (instance map to column tables)
+  # we can record an instance (instance map to column table)
+  
   
   
   
