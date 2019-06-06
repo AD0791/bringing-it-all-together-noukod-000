@@ -56,6 +56,8 @@ class Dog
   # custom constructor that will create and record new songs (obj map to tables)
   def self.create(name:, breed:)
     dog = self.new(name,breed) #Dog.new # custom constructor
+    dog.save
+    dog
   end
   
   
