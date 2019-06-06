@@ -15,8 +15,11 @@ class Dog
     sql = <<-SQL CREATE TABLE IF NOT EXITS dogs(
       id INTEGER PRIMARY KEY,
       name TEXT,
-      breed 
+      breed TEXT
       )
+      SQL
+      
+      
   end
   
   
