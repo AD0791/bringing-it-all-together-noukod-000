@@ -84,7 +84,7 @@ class Dog
   
   # database to ruby (handler)
   def self.new_from_db(row)
-    Dog.new(id: row[o], name: row[1] name, breed: row[3])
+    Dog.new(id: row[0], name: row[1] name, breed: row[3])
   end
   
   
