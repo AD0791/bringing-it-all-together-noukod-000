@@ -38,7 +38,13 @@ class Dog
   # ruby to database
   # we can record an instance (instance map to column table)
   def save
+    if self.id
+      self.update
+    else
+      #####
+    end
     
+    @id = 
   end
   
   
