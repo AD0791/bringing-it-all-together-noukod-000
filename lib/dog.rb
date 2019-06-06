@@ -29,11 +29,7 @@ class Dog
   # our class can drop the dogs table (obj map tables)
   def self.drop_table
     sql = <<-SQL 
-      CREATE TABLE IF NOT EXISTS dogs(
-      id INTEGER PRIMARY KEY,
-      name TEXT,
-      breed TEXT
-      )
+      DROP TABLE dogs
       SQL
       
       DB[:conn].execute(sql)
