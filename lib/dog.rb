@@ -9,7 +9,9 @@ class Dog
     @id = id
   end
   
-  
+  # ruby to database
+  # our class can create dogs table (obj map tables)
+  def self.create_table
   
   
   
