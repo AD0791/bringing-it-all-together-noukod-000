@@ -54,8 +54,8 @@ class Dog
   
   # ruby to database
   # custom constructor that will create and record new songs (obj map to tables)
-  def self.create
-    
+  def self.create(name:, breed:)
+    dog = self.new(name,breed) #Dog.new # custom constructor
   end
   
   
