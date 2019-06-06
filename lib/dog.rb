@@ -54,7 +54,9 @@ class Dog
   
   # ruby to database
   # custom constructor that will create and record new songs (obj map to tables)
-  def 
+  def self.create
+    
+  end
   
   
   
