@@ -114,7 +114,8 @@ class Dog
   
   
   
-  
+  # ruby to database
+  # instance can update a record (instance maps to row of tables)
   def update
     sql = "UPDATE dogs SET name = ?, breed = ?  WHERE id = ?"
     DB[:conn].execute(sql, self.name, self.breed, self.id)
